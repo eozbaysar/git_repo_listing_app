@@ -1,11 +1,63 @@
 <resources>
 
-    <!-- Base application theme. -->
+    <!-- Base application theme.
     <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorPrimary">@color/maWhite</item>
+    </style>
+    -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
         <!-- Customize your theme here. -->
-        <item name="colorPrimary">@color/colorPrimary</item>
-        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
-        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="CustomTheme" parent="Theme.AppCompat.Light">
+        <item name="contentInsetStart">0dp</item>
+        <item name="contentInsetEnd">0dp</item>
+        <item name="colorPrimary">@color/maWhite</item>
+    </style>
+
+    <!--
+     <style name="TextInputLayoutStyle" parent="Widget.MaterialComponents.TextInputLayout.OutlinedBox">
+        <item name="boxStrokeColor">@color/maMiddleGrey</item>
+        <item name="boxStrokeWidth">1dp</item>
+    </style>
+
+    <style name="TextAppearance.App.TextInputLayout" parent="@android:style/TextAppearance">
+        <item name="android:textColor">@color/maGrey</item>
+    </style>
+    -->
+
+    <style name="myTheme.ActionBar.Text" parent="@android:style/TextAppearance">
+        <item name="android:textColor">@color/maBlack</item>
+    </style>
+
+    <style name="RepoUserAvatar">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:scaleType">centerCrop</item>
+        <item name="android:transitionName">@string/repo_transition_avatar</item>
+        <item name="android:background">@color/colorPrimary</item>
+    </style>
+
+    <style name="RepoDetailsTitle">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@color/maRed</item>
+        <item name="android:textSize">@dimen/maTextSize</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:paddingRight">20dp</item>
+        <item name="android:paddingLeft">20dp</item>
+    </style>
+
+    <style name="RepoDetails" parent="RepoDetailsTitle">
+        <item name="android:textColor">@color/maBlack</item>
+        <item name="android:textSize">@dimen/maTextSize</item>
+        <item name="android:paddingBottom">20dp</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:freezesText">true</item>
+    </style>
+
+    <style name="HintText">
+        <item name="android:textColor">@color/maGrey</item>
+        <item name="android:textSize">@dimen/maTextSize</item>
     </style>
 
 </resources>

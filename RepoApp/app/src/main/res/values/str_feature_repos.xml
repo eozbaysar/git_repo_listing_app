@@ -1,0 +1,10 @@
+<resources>
+    <string name="movies_screen_title">Repos</string>
+    <string name="movie_details_screen_title">Repo Details</string>
+    <string name="repo_details_username">Username</string>
+    <string name="repo_details_stars">Stars</string>
+    <string name="repo_details_issues">Open Issues</string>
+
+    <!-- Animations -->
+    <string name="repo_transition_avatar">repoImageTransition</string>
+</resources>
