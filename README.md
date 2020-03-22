@@ -16,9 +16,10 @@ MVVM was used as the UI layer to seperation of concern.
 ## 3rd Libraries and Components:
 
 *   Kotlin **[Coroutines]** for background operations.
+*   Kotlin **[Parcelable]** used for object data transfer between pages.
 *   Reactive UIs using **LiveData** observables.
-*   A **data layer** with a repository and two data sources (local using **[RealmDb]** and remote **[Refrofit]**)
-*   Inter-class dependencies were injectioned using **[Dagger2]**
+*   A **data layer** with a repository and two data sources (local using **[RealmDb]** and remote **[Refrofit]**).
+*   Inter-class dependencies were injectioned using **[Dagger2]**.
 *   A collection of unit and activity **tests** were run on **[Robolectric]** and using **[Mockito]**.
 
 
