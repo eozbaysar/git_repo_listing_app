@@ -81,6 +81,10 @@ class ReposFragment : BaseFragment() {
 
     private fun renderReposList(repos: List<RepoView>?) {
         reposAdapter.collection = repos.orEmpty()
+        if(reposAdapter.collection.isEmpty()){
+            reposList.invisible()
+            emptyView.visible()
+        }
         //hideProgress()
     }
 
