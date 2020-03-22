@@ -1,3 +1,15 @@
 <resources>
     <string name="app_name">RepoApp</string>
+
+    <string name="home">Home</string>
+    <string name="action_refresh">Refresh</string>
+    <string name="txt_hint_username">Username</string>
+    <string name="btn_submit">SUBMIT</string>
+    <string name="no_repositories">Repo can\'t find\nPlease enter different username.</string>
+    <string name="first_time_launch">Please enter a username.</string>
+    <string name="failure_network_connection">No Network Connection.</string>
+    <string name="failure_server_error">Server Error</string>
+    <string name="failure_repo_list_unavailable">Repos Unavailable.</string>
+    <string name="failure_repo_non_existent">Repo Not Existent.</string>
+    <string name="empty_field">Please, don\'t leave the search field empty</string>
 </resources>
